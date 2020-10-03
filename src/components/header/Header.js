@@ -8,8 +8,6 @@ import CartIcon from "../cart-icon/CartIcon";
 import CartDropDown from "../cart-dropdown/CartDropDown";
 
 const Header = ({ currentUser, hidden }) => {
-	console.log(hidden);
-
 	return (
 		<div className="header">
 			<Link to="/" className="logo-container">
