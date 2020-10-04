@@ -27,5 +27,19 @@
 		margin-top: 30px;
 		margin-left: auto;
 		font-size: 36px;
+		text-align: right;
+		span {
+			display: block;
+		}
+		button: {
+			margin-left: auto;
+		}
+	}
+	.test-data {
+		font-size: 24px;
+		color: red;
+		font-weight: 500;
+		margin: 50px 0;
+		text-align: center;
 	}
 }
