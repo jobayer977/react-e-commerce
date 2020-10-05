@@ -5,7 +5,11 @@ import Homepage from "./pages/homepage/Homepage";
 import ShopPage from "./pages/shoppage/ShopPage";
 import Header from "./components/header/Header";
 import SignInAndSignUp from "./pages/sign-in-and-sing-up/SignInAndSignUp";
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
+import {
+	addCollectionAndDocuments,
+	auth,
+	createUserProfileDocument,
+} from "./firebase/firebase.utils";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selectors";
