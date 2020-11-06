@@ -1,7 +1,7 @@
-import React from "react";
-import SignIn from "../../components/sign-in/SignIn";
-import SignUp from "../../components/sign-up/SignUp";
-import "./signinandsignup.style.scss";
+import React from "react"
+import SignIn from "../../components/sign-in/SignIn"
+import SignUp from "../../components/sign-up/SignUp"
+import "./signinandsignup.style.scss"
 
 const SignInAndSignUp = () => {
 	return (
@@ -9,7 +9,7 @@ const SignInAndSignUp = () => {
 			<SignIn />
 			<SignUp />
 		</div>
-	);
-};
+	)
+}
 
-export default SignInAndSignUp;
+export default SignInAndSignUp
